@@ -98,6 +98,6 @@ msg:
 		DB		0x0a			; ���s
 		DB		0
 
-	    RESB    510 -($-$$)		; 0x7dfe�܂ł�0x00�Ŗ��߂閽��
+	    RESB    0x7dfe -($-$$)		; 0x7dfe�܂ł�0x00�Ŗ��߂閽��
 
 		DB		0x55, 0xaa
